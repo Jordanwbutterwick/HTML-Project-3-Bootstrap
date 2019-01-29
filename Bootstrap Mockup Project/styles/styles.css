@@ -1,0 +1,28 @@
+.styled-jumbo {
+  background-image: url("../assets/img/hero-lg.svg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.btn-primary {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.styled-card {
+  color: white;
+  margin-bottom: 30px;
+  background-image: url("../assets/img/card-blue.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.styled-card-button {
+  margin-top: 5em;
+  width: 100%;
+}
+.copyright {
+  background-image: url("../assets/img/hero-lg.svg");
+  background-attachment: fixed;
+  color: white;
+}
