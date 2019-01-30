@@ -35,9 +35,9 @@
               >Home<span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item"><a class="nav-link" href="#">Plans</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Steps</a></li>
+          <li class="nav-item"><a class="nav-link" href="#plans">Plans</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#steps">Steps</a></li>
         </ul>
       </div>
     </div>
@@ -54,26 +54,35 @@
     </div>
     <br />
     <br />
-    <div class="container">
+    <div class="container " id="plans">
       <h1>Plans</h1>
       <hr />
       <div class="row">
         <div class="col-md-4">
           <div class="card">
             <img
+              class="card-img-top d-none d-md-block"
               src="./assets/img/card-blue.png"
-              class="card-img-top"
-              alt="blue background"
+              alt="Blue Card Background"
             />
-            <div class="card-img-overlay d-flex flex-column">
+            <img
+              class="card-img-top d-block d-md-none"
+              src="./assets/img/card-blue-small.png"
+              alt="Blue Card Background"
+            />
+            <div
+              class="card-img-overlay d-flex flex-column justify-content-center"
+            >
               <div class="card-body text-light">
                 <h5 class="card-title">Free</h5>
                 <h4>$0.00 / mo</h4>
                 <p class="card-text">
                   Some quick example text explaining the plan.
                 </p>
-                <a href="#" class="btn btn-block mt-auto mx-auto btn-light"
-                  >Sign Up</a
+                <a
+                  href="#"
+                  class="align-self-end btn btn-primary btn-block btn-light mt-auto mx-auto"
+                  >Sign up</a
                 >
               </div>
             </div>
@@ -82,18 +91,29 @@
         <div class="col-md-4">
           <div class="card">
             <img
+              class="card-img-top d-none d-md-block"
               src="./assets/img/card-blue.png"
-              class="card-img-top"
-              alt="..."
+              alt="Blue Card Background"
             />
-            <div class="card-img-overlay d-flex flex-column">
+            <img
+              class="card-img-top d-block d-md-none"
+              src="./assets/img/card-blue-small.png"
+              alt="Blue Card Background"
+            />
+            <div
+              class="card-img-overlay d-flex flex-column justify-content-center"
+            >
               <div class="card-body text-light">
                 <h5 class="card-title">Pro</h5>
                 <h4>$10.00 / mo</h4>
                 <p class="card-text">
                   Some quick example text explaining the plan.
                 </p>
-                <a href="#" class="btn btn-block btn-light">Sign Up</a>
+                <a
+                  href="#"
+                  class="align-self-end btn btn-primary btn-block btn-light mt-auto mx-auto"
+                  >Sign up</a
+                >
               </div>
             </div>
           </div>
@@ -101,18 +121,29 @@
         <div class="col-md-4">
           <div class="card">
             <img
+              class="card-img-top d-none d-md-block"
               src="./assets/img/card-blue.png"
-              class="card-img-top"
-              alt="..."
+              alt="Blue Card Background"
             />
-            <div class="card-img-overlay d-flex flex-column">
+            <img
+              class="card-img-top d-block d-md-none"
+              src="./assets/img/card-blue-small.png"
+              alt="Blue Card Background"
+            />
+            <div
+              class="card-img-overlay d-flex flex-column justify-content-center"
+            >
               <div class="card-body text-light">
                 <h5 class="card-title">Enterprise</h5>
                 <h4>$90.00 / mo</h4>
                 <p class="card-text">
                   Some quick example text explaining the plan.
                 </p>
-                <a href="#" class="btn btn-block btn-light">Sign Up</a>
+                <a
+                  href="#"
+                  class="align-self-end btn btn-primary btn-block btn-light mt-auto mx-auto"
+                  >Sign up</a
+                >
               </div>
             </div>
           </div>
@@ -124,7 +155,7 @@
     <br />
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">A Story about this Company</h1>
+        <h1 class="display-4" id="about">A Story about this Company</h1>
         <hr />
         <p class="lead">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil et
@@ -142,7 +173,7 @@
     </div>
     <br />
     <br />
-    <div class="container">
+    <div class="container" id="steps">
       <h1>Steps in the process</h1>
       <hr />
       <br />
